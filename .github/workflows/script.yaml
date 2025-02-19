@@ -2,7 +2,7 @@ name: 自动获取ss节点
 
 on:
   schedule:
-    - cron: '25 9 * * *' # 每天 9 点 25 分执行
+    - cron: '26 * * * *' # 每天 9 点 25 分执行
   workflow_dispatch:  # 使工作流支持手动触发
   push:
     branches:
